@@ -1,0 +1,51 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Texto{
+    display: flex;
+    padding-left: 320px;
+    width: 65%;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.Texto-2{
+    display: flex;
+    padding-left: 320px;
+    width: 65%;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+
+.div-t2{
+    width: 90%;
+}
+
+.img-ultimas{
+    width: 60%;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+a{
+    color: white;
+}
