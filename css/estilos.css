@@ -1,0 +1,518 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'titulos';
+    src: url('../tipografias/titulos.otf')
+    }
+
+    @font-face {
+        font-family: 'p';
+        src: url('../tipografias/Raleway-Regular.ttf')
+        }
+
+body{
+    background-image: url(../images/OIG4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    background-position: center center;
+}
+
+ul{
+    list-style-type: none;
+   
+
+}
+
+li{
+    font-family: 'titulos';
+    font-size: 30px;
+    color: black;
+    width: 250px;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    border: 0px solid #000;
+}
+
+p{
+    font-size: 25px;
+    font-family: 'p';
+}
+h11{
+    font-family: 'titulos';
+    color: white;
+    font-size: 50px;
+}
+h12{
+    font-family: 'p';
+    font-size: 40px;
+}
+h13{
+    font-family: 'p';
+    font-size: 40px;
+}
+
+h1{
+    font-family: 'titulos';
+    color: white;
+    font-size: 40px;
+}
+h3{
+    font-family: 'titulos';
+    color: white;
+}
+
+.desplegables{
+    display: flex;
+    flex-direction: row;
+}
+.desplegables2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.desplegables3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 200px;
+}
+
+.boton-desplegable{
+    width: 400px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn { 
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none; /* Inicialmente oculto */
+    position: absolute;
+    background-color: #D9D9D9;
+    min-width: 160px;
+
+    z-index: 1;
+}
+.texto{
+    display: flex;
+    text-align: start;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+
+}
+
+/* Mostrar el contenido cuando el checkbox está seleccionado */
+.dropdown-toggle:checked + .dropbtn + .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+
+}
+
+
+
+
+
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn1 { 
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content1 {
+    display: none; /* Inicialmente oculto */
+    position: absolute;
+    background-color: #D9D9D9;
+    min-width: 160px;
+
+    z-index: 1;
+}
+.texto{
+    display: flex;
+    text-align: start;
+}
+
+.dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content1 a:hover {
+    background-color: #f1f1f1;
+
+}
+
+/* Mostrar el contenido cuando el checkbox está seleccionado */
+.dropdown-toggle1:checked + .dropbtn1 + .dropdown-content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+
+}
+
+
+
+
+
+
+
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn2 { 
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content2 {
+    display: none; /* Inicialmente oculto */
+    position: absolute;
+    background-color: #D9D9D9;
+    min-width: 160px;
+
+    z-index: 1;
+}
+
+.dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content2 a:hover {
+    background-color: #f1f1f1;
+
+}
+
+/* Mostrar el contenido cuando el checkbox está seleccionado */
+.dropdown-toggle2:checked + .dropbtn2 + .dropdown-content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+
+}
+
+
+
+
+
+
+
+
+.dropdown3 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn3 { 
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content3 {
+    display: none; /* Inicialmente oculto */
+    position: absolute;
+    background-color: #D9D9D9;
+    min-width: 160px;
+
+    z-index: 1;
+}
+
+.dropdown-content3 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content3 a:hover {
+    background-color: #f1f1f1;
+
+}
+
+/* Mostrar el contenido cuando el checkbox está seleccionado */
+.dropdown-toggle3:checked + .dropbtn3 + .dropdown-content3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+
+}
+
+
+
+
+
+
+
+
+.dropdown4 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn4 { 
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content4 {
+    display: none; /* Inicialmente oculto */
+    position: absolute;
+    background-color: #D9D9D9;
+    min-width: 160px;
+
+    z-index: 1;
+}
+
+
+.dropdown-content4 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content4 a:hover {
+    background-color: #f1f1f1;
+
+}
+
+/* Mostrar el contenido cuando el checkbox está seleccionado */
+.dropdown-toggle4:checked + .dropbtn4 + .dropdown-content4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+
+}
+
+
+
+
+
+
+
+.dropdown5 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn5 { 
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content5 {
+    display: none; /* Inicialmente oculto */
+    position: absolute;
+    background-color: #D9D9D9;
+    min-width: 160px;
+
+    z-index: 1;
+}
+
+
+.dropdown-content5 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content5 a:hover {
+    background-color: #f1f1f1;
+
+}
+
+/* Mostrar el contenido cuando el checkbox está seleccionado */
+.dropdown-toggle5:checked + .dropbtn5 + .dropdown-content5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+
+}
+
+
+
+
+
+
+
+.dropdown6 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn6 { 
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content6 {
+    display: none; /* Inicialmente oculto */
+    position: absolute;
+    background-color: #D9D9D9;
+    min-width: 160px;
+
+    z-index: 1;
+}
+
+
+.dropdown-content6 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content6 a:hover {
+    background-color: #f1f1f1;
+
+}
+
+/* Mostrar el contenido cuando el checkbox está seleccionado */
+.dropdown-toggle6:checked + .dropbtn6 + .dropdown-content6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input{
+    display: none;
+}
+
+.colorA{
+    color: black;
+}
+
+.pagina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.cuerpo{
+
+    width: 70%;
+    padding-left: 15%;
+
+}
+
+.img-autor{
+    border-radius: 25px;
+    border: 0px solid #000;
+}
+
+.img{
+    width: 30%;
+    padding-left: 35%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.cuerpo2{
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.img-cuento{
+    position: absolute;
+    top: 1150px;
+    left: 950px;
+}
+
+.boton{
+    width: 30%;
+    padding-top: 10rem;
+}
+
+.contenedor-foto{
+    padding-bottom: 50px;
+    padding-left: 37%;
+}
+.foto-perfil{
+    width: 40%;
+    border-radius: 20px;
+    border: 0px solid #000;
+
+}
